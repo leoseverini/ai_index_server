@@ -1,0 +1,16 @@
+{
+  "name": "ai_index_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Leonardo Severini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lowdb": "^5.0.5"
+  }
+}

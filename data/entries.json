@@ -1,0 +1,120 @@
+{
+    "entries": [
+        {
+            "id" : "1",
+            "name": "Fotor",
+            "company": "Fotor",
+            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "description": "Fotor, an online photo editor with millions of users worldwide, recently released an AI image generator. It’s very easy to use. You just need to type your text prompts, and watch Fotor’s AI text-to-image generator bring it to life in a matter of seconds. You can use it to create realistic face images, 3D and anime characters, paintings, and digital art of any type. The best part about Fotor’s AI image generator is that it’s free to use, and lets you export your generated image in full resolution. It’s a great option for both beginners and advanced users.",
+            "features": [
+                "10 free image generations per day",
+                "2 image conversion models: text-to-image and image-to-image",
+                "Fast image generation mode",
+                "Ability to produce great images from text",
+                "9 different conversion styles to choose from"
+            ],
+            "level": "medium",
+            "tags": [
+                "image",
+                "text",
+                "free",
+                "pay"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819504/ai_index/leoseverini_hologram_of_a_robot_brain_dark_mood_black_red_and_b_206a9b14-6ea2-446c-b133-097da608d13f_ukptch.png",
+            "rating": 4.5
+        },
+        {
+            "id" : "2",
+            "name": "NightCafe",
+            "company": "NightCafe",
+            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "description": "NightCafe is one of the most popular AI text-to-image generators on the market. It is said to have more algorithms and options than other generators. It comes with 2 conversion models- Text to Image and Style Transfer. Text to Image: You just need to enter a description text, and NightCafe will automatically generate an image of the corresponding scene based on your description. Style Transfer: Upload a picture to NightCafe, and it can turn your pictures into the style of famous paintings. NightCafe is based on a credit system. The more credits you have, the more images you can generate. You can earn credits by participating in the community or purchasing.",
+            "features": [
+                "Easy to use",
+                "Fast image generation process",
+                "5 free image generations per day",
+                "Various art styles to choose from",
+                "Able to generate high-resolution images for printing"
+            ],
+            "level": "easy",
+            "tags": [                
+                "image",
+                "text",
+                "free",
+                "pay"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819503/ai_index/leoseverini_colorfull_monster_caricature_vector_92414eeb-2a9d-4e14-b6e6-1c083318f333_nlpbji.png",
+            "rating": 3.1
+        },
+        {
+            "id" : "3",
+            "name": "Dream",
+            "company": "WOMBO",
+            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "description": "Dream by WOMBO was created by a Canadian artificial intelligence startup WOMBO. It is considered by many to be the best all-around AI image generator from text. The process of using Dream by WOMBO is very similar to NightCafe. Write a sentence, choose an art style, and let Dream by WOMBO generate the image for you. One of the best parts of Dream by WOMBO is that it allows you to upload an image as a reference, so you can generate images that better match your vision.",
+            "features": [
+                "Easy to use",
+                "Various art styles are available",
+                "Unlimited image generations for free",
+                "Sell your generated images as NFTs"
+            ],
+            "level": "easy",
+            "tags": [                
+                "image",
+                "text",
+                "free",
+                "pay"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819498/ai_index/Ionzed_golden_polygonal_cat_ray_tracing_hdr_reflections_8k_10c6ad86-9ce6-4bc3-9b89-8843a668997d_jvszsu.png",
+            "rating": 3.8
+        },
+        {
+            "id" : "4",
+            "name": "DALL-E 2",
+            "company": "DALL-E 2",
+            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "description": "DALL-E 2 is a cutting-edge AI image generator developed by OpenAI, the same team that created GPT-3, the top natural language machine learning algorithm. Therefore, DALL-E 2 becomes the most advanced AI image generator on the market that can generate a variety of digital art and illustrations from text. Just input the text, and Dall-E 2 will create a series of pictures based on your text. You can use it to create illustrations, design products, and generate new ideas for business. One of the best features DALL-E 2 offers is its paintbrush, which allows you to add details to your image such as shadows, highlights, colors, textures, etc.",
+            "features": [
+                "Produce multiple images per time in minutes",
+                "Image quality and accuracy are excellent",
+                "Able to edit the generated images"
+            ],
+            "level": "easy",
+            "tags": [                
+                "image",
+                "text",
+                "free",
+                "pay"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819498/ai_index/leoseverini_robot_painting_a_electric_bulb_in_vector_style_2471bf3f-bb6c-4eee-adfa-636128cb2239_tlkgca.png",
+            "rating": 3.8
+        },
+        {
+            "id" : "5",
+            "name": "DALL-E 2",
+            "company": "DALL-E 2",
+            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "description": "Midjourney is also one of the best AI image generators, with comprehensive capabilities and extremely fast image generation. Input a text prompt and let Midjourney do the rest. Many artists use Midjourney to generate the images they want as inspiration for their work. The artificial intelligence painting “Théâtre d'Opéra Spatial” produced using Midjourney got first prize in a fine art competition at the Colorado State Fair, beating out 20 other artists. However, at the moment, Midjourney is hosted on a Discord server. To generate images with MidJourney, you have to join his server and employ Discord bot commands to create images. But that's easy, you can easily get started within minutes.",
+            "features": [
+                "Easy to get started",
+                "Quick to produce AI-generated image",
+                "The quality of the generated images is great",
+                "4 output images per time"
+            ],
+            "level": "intermediate",
+            "tags": [                
+                "image",
+                "text",
+                "free",
+                "pay"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819498/ai_index/grid_0_2_wgwdln.webp",
+            "rating": 3.8
+        }
+    ]
+}
