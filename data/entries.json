@@ -2,7 +2,7 @@
     "entries": [
         {
             "id" : "1",
-            "name": "Fotor",
+            "name": "Fotor",            
             "company": "Fotor",
             "url": "https://www.fotor.com/features/ai-image-generator/",
             "description": "Fotor, an online photo editor with millions of users worldwide, recently released an AI image generator. It’s very easy to use. You just need to type your text prompts, and watch Fotor’s AI text-to-image generator bring it to life in a matter of seconds. You can use it to create realistic face images, 3D and anime characters, paintings, and digital art of any type. The best part about Fotor’s AI image generator is that it’s free to use, and lets you export your generated image in full resolution. It’s a great option for both beginners and advanced users.",
@@ -27,8 +27,8 @@
         {
             "id" : "2",
             "name": "NightCafe",
-            "company": "NightCafe",
-            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "company": "NightCafe Studio Pty Ltd.",
+            "url": "https://creator.nightcafe.studio/",
             "description": "NightCafe is one of the most popular AI text-to-image generators on the market. It is said to have more algorithms and options than other generators. It comes with 2 conversion models- Text to Image and Style Transfer. Text to Image: You just need to enter a description text, and NightCafe will automatically generate an image of the corresponding scene based on your description. Style Transfer: Upload a picture to NightCafe, and it can turn your pictures into the style of famous paintings. NightCafe is based on a credit system. The more credits you have, the more images you can generate. You can earn credits by participating in the community or purchasing.",
             "features": [
                 "Easy to use",
@@ -52,7 +52,7 @@
             "id" : "3",
             "name": "Dream",
             "company": "WOMBO",
-            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "url": "https://dream.ai/create",
             "description": "Dream by WOMBO was created by a Canadian artificial intelligence startup WOMBO. It is considered by many to be the best all-around AI image generator from text. The process of using Dream by WOMBO is very similar to NightCafe. Write a sentence, choose an art style, and let Dream by WOMBO generate the image for you. One of the best parts of Dream by WOMBO is that it allows you to upload an image as a reference, so you can generate images that better match your vision.",
             "features": [
                 "Easy to use",
@@ -74,8 +74,8 @@
         {
             "id" : "4",
             "name": "DALL-E 2",
-            "company": "DALL-E 2",
-            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "company": "OpenAI",
+            "url": "https://openai.com/dall-e-2/",
             "description": "DALL-E 2 is a cutting-edge AI image generator developed by OpenAI, the same team that created GPT-3, the top natural language machine learning algorithm. Therefore, DALL-E 2 becomes the most advanced AI image generator on the market that can generate a variety of digital art and illustrations from text. Just input the text, and Dall-E 2 will create a series of pictures based on your text. You can use it to create illustrations, design products, and generate new ideas for business. One of the best features DALL-E 2 offers is its paintbrush, which allows you to add details to your image such as shadows, highlights, colors, textures, etc.",
             "features": [
                 "Produce multiple images per time in minutes",
@@ -95,9 +95,9 @@
         },
         {
             "id" : "5",
-            "name": "DALL-E 2",
-            "company": "DALL-E 2",
-            "url": "https://www.fotor.com/features/ai-image-generator/",
+            "name": "Midjourney",
+            "company": "Midjourney",
+            "url": "https://www.midjourney.com/",
             "description": "Midjourney is also one of the best AI image generators, with comprehensive capabilities and extremely fast image generation. Input a text prompt and let Midjourney do the rest. Many artists use Midjourney to generate the images they want as inspiration for their work. The artificial intelligence painting “Théâtre d'Opéra Spatial” produced using Midjourney got first prize in a fine art competition at the Colorado State Fair, beating out 20 other artists. However, at the moment, Midjourney is hosted on a Discord server. To generate images with MidJourney, you have to join his server and employ Discord bot commands to create images. But that's easy, you can easily get started within minutes.",
             "features": [
                 "Easy to get started",
@@ -114,7 +114,53 @@
             ],
             "images": [],
             "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819498/ai_index/grid_0_2_wgwdln.webp",
-            "rating": 3.8
+            "rating": 5
+        },
+        {
+            "id" : "6",
+            "name": "Dream Studio",
+            "company": "Stable Diffusion",
+            "url": "https://beta.dreamstudio.ai/dream",
+            "description": "Currently, Dream Studio, also known as Stable Diffusion, is one of the most popular text-to-image AI generators. It is an open-source model that converts text prompts into images in mere seconds. Additionally, it can produce photorealistic artworks by combining an uploaded photo and a written description. Dream Studio can be used to create photographic images, illustrations, 3D models, logos, and basically any image you can imagine.",
+            "features": [
+                "Fast AI image generation",
+                "Multiple image generations per time",
+                "The results come with high quality",
+                "Customization options to edit the generated AI images",
+                "API access"
+            ],
+            "level": "intermediate",
+            "tags": [                
+                "image",                
+                "free",
+                "pay",
+                "api"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1675159139/ai_index/leoseverini_robot_coding_with_a_computer_realistic_image_93ae27ed-fc33-4b68-8a54-b1a4adf9209e_xzgkfb.png",
+            "rating": 4.5
+        },
+        {
+            "id" : "7",
+            "name": "Craiyon",
+            "company": "OpenAI",
+            "url": "https://www.craiyon.com/",
+            "description": "Craiyon was formerly called DALL-E mini. It was developed by researchers at Google and Hugging Face. Simply type a text description and it will generate 9 different images made from your input text. Craiyon is a great free AI image generator with no sign-up page required. You can type in any keywords you like and see your AI-generated image in a few minutes!",
+            "features": [
+                "Easy to use",
+                "No signup or registration required",
+                "Unlimited AI image generation for free",
+                "Generate 9 images per time in a funny and creative way",
+            ],
+            "level": "easy",
+            "tags": [                
+                "image",                
+                "free",
+                "api"
+            ],
+            "images": [],
+            "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1675159132/ai_index/leoseverini_robot_holding_an_bulb_2d567bd6-60f8-42f8-a8ae-65dbc365b55b_mbymyq.png",
+            "rating": 4.5
         }
     ]
 }
