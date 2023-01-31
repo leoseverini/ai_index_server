@@ -1,8 +1,8 @@
 {
     "entries": [
         {
-            "id" : "1",
-            "name": "Fotor",            
+            "id": "1",
+            "name": "Fotor",
             "company": "Fotor",
             "url": "https://www.fotor.com/features/ai-image-generator/",
             "description": "Fotor, an online photo editor with millions of users worldwide, recently released an AI image generator. It’s very easy to use. You just need to type your text prompts, and watch Fotor’s AI text-to-image generator bring it to life in a matter of seconds. You can use it to create realistic face images, 3D and anime characters, paintings, and digital art of any type. The best part about Fotor’s AI image generator is that it’s free to use, and lets you export your generated image in full resolution. It’s a great option for both beginners and advanced users.",
@@ -25,7 +25,7 @@
             "rating": 4.5
         },
         {
-            "id" : "2",
+            "id": "2",
             "name": "NightCafe",
             "company": "NightCafe Studio Pty Ltd.",
             "url": "https://creator.nightcafe.studio/",
@@ -38,7 +38,7 @@
                 "Able to generate high-resolution images for printing"
             ],
             "level": "easy",
-            "tags": [                
+            "tags": [
                 "image",
                 "text",
                 "free",
@@ -49,7 +49,7 @@
             "rating": 3.1
         },
         {
-            "id" : "3",
+            "id": "3",
             "name": "Dream",
             "company": "WOMBO",
             "url": "https://dream.ai/create",
@@ -61,7 +61,7 @@
                 "Sell your generated images as NFTs"
             ],
             "level": "easy",
-            "tags": [                
+            "tags": [
                 "image",
                 "text",
                 "free",
@@ -72,7 +72,7 @@
             "rating": 3.8
         },
         {
-            "id" : "4",
+            "id": "4",
             "name": "DALL-E 2",
             "company": "OpenAI",
             "url": "https://openai.com/dall-e-2/",
@@ -83,7 +83,7 @@
                 "Able to edit the generated images"
             ],
             "level": "easy",
-            "tags": [                
+            "tags": [
                 "image",
                 "text",
                 "free",
@@ -94,7 +94,7 @@
             "rating": 3.8
         },
         {
-            "id" : "5",
+            "id": "5",
             "name": "Midjourney",
             "company": "Midjourney",
             "url": "https://www.midjourney.com/",
@@ -106,7 +106,7 @@
                 "4 output images per time"
             ],
             "level": "intermediate",
-            "tags": [                
+            "tags": [
                 "image",
                 "text",
                 "free",
@@ -117,7 +117,7 @@
             "rating": 5
         },
         {
-            "id" : "6",
+            "id": "6",
             "name": "Dream Studio",
             "company": "Stable Diffusion",
             "url": "https://beta.dreamstudio.ai/dream",
@@ -130,8 +130,8 @@
                 "API access"
             ],
             "level": "intermediate",
-            "tags": [                
-                "image",                
+            "tags": [
+                "image",
                 "free",
                 "pay",
                 "api"
@@ -141,7 +141,7 @@
             "rating": 4.5
         },
         {
-            "id" : "7",
+            "id": "7",
             "name": "Craiyon",
             "company": "OpenAI",
             "url": "https://www.craiyon.com/",
@@ -150,11 +150,11 @@
                 "Easy to use",
                 "No signup or registration required",
                 "Unlimited AI image generation for free",
-                "Generate 9 images per time in a funny and creative way",
+                "Generate 9 images per time in a funny and creative way"
             ],
             "level": "easy",
-            "tags": [                
-                "image",                
+            "tags": [
+                "image",
                 "free",
                 "api"
             ],
