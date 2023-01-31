@@ -114,7 +114,7 @@
             ],
             "images": [],
             "tumb": "https://res.cloudinary.com/dj5qixqgg/image/upload/c_thumb,w_200,g_face/v1674819498/ai_index/grid_0_2_wgwdln.webp",
-            "rating": 5
+            "rating": 5.0
         },
         {
             "id": "6",
