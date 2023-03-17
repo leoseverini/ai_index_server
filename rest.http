@@ -1,0 +1,41 @@
+// USERS
+
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+POST http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "user" : "leonardo",
+    "name": "Leonardo Severini",
+    "email": "leoseverini@gmail.com",
+    "telephone": "123456789",
+    "password": "123456",
+    "type": 0,
+    "avatar": "this_is_an_avatar"
+}
+
+
+// CATALOG
+###
+
+GET http://localhost:3000/api/catalog HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/catalog HTTP/1.1
+content-type: application/json
+
+{
+"name": "Fliki",
+"link": "fliki.ai",
+"short": "Create videos from scripts or blog posts using realistic voices in 2 minutes! Transform blog articles into videos",
+"description": "Create videos from scripts or blog posts using realistic voices in 2 minutes! Transform blog articles into videos",
+"models": ["Freemium"],
+"categories": ["Video Generator"],
+"features":  ["feature1", "feature2"],
+"haveApi": true,
+"images": [""],
+"tags": ["video", "freemium"]
+}
