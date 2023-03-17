@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const initDb = function() {
+const initDb = async function () {
     mongoose.set('toJSON', {
         virtuals: true,
         transform: (doc, converted) => {
@@ -8,8 +8,14 @@ const initDb = function() {
         }
     });
 
-    mongoose.connect("mongodb+srv://fubkeylabs:bTkF4HWxHBE4Ixq2@cluster0.uqwepef.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
+    try {
+        const conn = await mongoose.connect("mongodb+srv://fubkeylabs:bTkF4HWxHBE4Ixq2@cluster0.uqwepef.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+        console.log(`MongoDB Connected: ${conn.connection.host}`);
+    } catch (error) {
+        console.log(error);
+        process.exit(1);
+    }
 };
 
 export default initDb;
