@@ -20,9 +20,10 @@ app.use(function (req, res, next) {
 
 app.use(json());
 
-initDb();
 routes(app);
 
-app.listen(PORT, () => {
-    console.log(`Server Started at ${PORT}`);
+initDb().then(() => {
+    app.listen(PORT, () => {
+        console.log(`Server Started at ${PORT}`);
+    });
 });
