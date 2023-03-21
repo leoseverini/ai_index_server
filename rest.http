@@ -1,6 +1,30 @@
-// USERS
+// LOGIN
+POST http://localhost:3000/api/auth HTTP/1.1
+content-type: application/json
 
+{
+    "user":"leonardo",
+    "password":"fun123"
+}
+
+###
+// USERS
 GET http://localhost:3000/api/users HTTP/1.1
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE4YjE5ZWNlN2U3ZTlkZmE3ZTI2MzciLCJuYW1lIjoiTGVvbmFyZG8gU2V2ZXJpbmkiLCJ0eXBlIjowLCJpYXQiOjE2NzkzNDEyNTh9.rEDfphqk_iFexI3DfDIvTMZuamRODMStQnSrBxhaAt8
+
+###
+POST http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "user" : "funkey",
+    "name": "FunKey Labs",
+    "email": "funkeylabs2023@gmail.com",
+    "telephone": "123456789",
+    "password": "fun123",
+    "type": 0,
+    "avatar": "this_is_an_avatar"
+}
 
 ###
 POST http://localhost:3000/api/users HTTP/1.1
@@ -9,11 +33,11 @@ content-type: application/json
 {
     "user" : "leonardo",
     "name": "Leonardo Severini",
-    "email": "leoseverini@gmail.com",
+    "email": "funkeylabs2023@gmail.com",
     "telephone": "123456789",
-    "password": "123456",
+    "password": "fun123",
     "type": 0,
-    "avatar": "this_is_an_avatar"
+    "avatar": "https://res.cloudinary.com/dwp7yvmmw/image/upload/c_thumb,w_200,g_face/v1679339745/avatars/fdktbjbn5zwflbcwbem9.jpg"
 }
 
 
@@ -38,4 +62,14 @@ content-type: application/json
 "haveApi": true,
 "images": [""],
 "tags": ["video", "freemium"]
+}
+
+###
+
+POST http://localhost:3000/api/lists HTTP/1.1
+content-type: application/json
+
+{
+    "name": "tag3",
+    "type": 1
 }
