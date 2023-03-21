@@ -3,6 +3,7 @@ import mongoose from 'mongoose'
 
 const CatalogSchema = new mongoose.Schema({    
     name: { type: String, default: '', maxlength: 64, trim: true, required: true },
+    index: { type: String, default: '', maxlength: 32 },
     link: { type: String, default: '', maxlength: 256, trim: true },
     short: { type: String, default: '', maxlength: 256, trim: true },
     description: { type: String, default: '' },    
@@ -17,6 +18,7 @@ const CatalogSchema = new mongoose.Schema({
 function validateFunction(course) {
     const schema = Joi.object({
         name: Joi.string().min(3).max(64).required(),
+        index: Joi.string().max(32),
         link: Joi.string().max(256),
         short: Joi.string().max(256),
         description: Joi.string(),
