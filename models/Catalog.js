@@ -3,6 +3,7 @@ import mongoose from 'mongoose'
 
 const CatalogSchema = new mongoose.Schema({    
     name: { type: String, default: '', maxlength: 64, trim: true, required: true },
+    enabled: { type: Boolean, default: false },
     index: { type: String, default: '', maxlength: 32 },
     link: { type: String, default: '', maxlength: 256, trim: true },
     short: { type: String, default: '', maxlength: 256, trim: true },
@@ -10,7 +11,7 @@ const CatalogSchema = new mongoose.Schema({
     models: [{ type: String, default: '', maxlength: 32, trim: true }],
     categories: [{ type: String, default: '', maxlength: 256, trim: true }],
     features: [{ type: String, default: '', maxlength: 256, trim: true }],
-    haveApi: { type: String, default: '' },
+    haveApi: { type: Boolean, default: false },
     images: [{ type: String, default: '', maxlength: 256, trim: true }],
     tags: [{ type: String, default: '', maxlength: 32, trim: true }],
 });
@@ -18,6 +19,7 @@ const CatalogSchema = new mongoose.Schema({
 function validateFunction(course) {
     const schema = Joi.object({
         name: Joi.string().min(3).max(64).required(),
+        enabled: Joi.boolean(),
         index: Joi.string().max(32),
         link: Joi.string().max(256),
         short: Joi.string().max(256),

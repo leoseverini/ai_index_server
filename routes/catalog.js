@@ -40,7 +40,7 @@ router.get('/:id', async (req, res, next) => {
 });
 
 
-// Upadte User
+// Upadte Catalog
 router.put('/:id', async (req, res, next) => {
     const catalog = await Catalog.findById(req.params.id);
     if (!catalog) return res.status(404).send('The catalog with the given ID was not found.');

@@ -1,0 +1,24 @@
+{
+    "name": "Other optioncc",
+    "enabled": false,
+    "index": "999",
+    "link": "link",
+    "short": "Short description",
+    "description": "Large Description",
+    "models": [
+        ""
+    ],
+    "categories": [
+        ""
+    ],
+    "features": [
+        ""
+    ],
+    "haveApi": false,
+    "images": [
+        "https://picsum.photos/id/231/200/300"
+    ],
+    "tags": [
+        "tag 1"
+    ]
+}

@@ -75,3 +75,34 @@ content-type: application/json
     "name": "tag3",
     "type": 1
 }
+
+###
+
+
+PUT http://localhost:3000/api/catalog/641b16e9137186d7f916dd84 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Other option xxx",
+    "enabled": false,
+    "index": "999",
+    "link": "link",
+    "short": "Short description",
+    "description": "Large Description",
+    "models": [
+        ""
+    ],
+    "categories": [
+        ""
+    ],
+    "features": [
+        ""
+    ],
+    "haveApi": false,
+    "images": [
+        "https://picsum.photos/id/231/200/300"
+    ],
+    "tags": [
+        "tag 1"
+    ]
+}
