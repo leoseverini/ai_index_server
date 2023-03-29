@@ -15,6 +15,26 @@ router.get('/', async (req, res, next) => {
     return;
 });
 
+router.get('/list', async (req, res, next) => {
+    Catalog.find({enabled: true }).then((ret) => {
+        let data = ret.map((item) => {           
+            return {
+                id: item.id,                
+                name: item.name,
+                short: item.short,
+                image: item.images[0],                
+            }
+        });
+
+        res.send(data);
+      }).catch((err) => {
+        res.status(400).send({err: err.message});
+      });
+
+    return;
+});
+
+
 // POST ADD Catalog
 router.post('/', async (req, res, next) => {
     let data = req.body;
