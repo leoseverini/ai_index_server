@@ -8,28 +8,28 @@ router.get('/', async (req, res, next) => {
 
     Catalog.find({}).then((data) => {
         res.send(data);
-      }).catch((err) => {
-        res.status(400).send({err: err.message});
-      });
+    }).catch((err) => {
+        res.status(400).send({ err: err.message });
+    });
 
     return;
 });
 
 router.get('/list', async (req, res, next) => {
-    Catalog.find({enabled: true }).then((ret) => {
-        let data = ret.map((item) => {           
+    Catalog.find({ enabled: true }).then((ret) => {
+        let data = ret.map((item) => {
             return {
-                id: item.id,                
+                id: item.id,
                 name: item.name,
-                short: item.short,
-                image: item.images[0],                
+                short: item.description.substring(0, 40),
+                image: item.images[0],
             }
         });
 
         res.send(data);
-      }).catch((err) => {
-        res.status(400).send({err: err.message});
-      });
+    }).catch((err) => {
+        res.status(400).send({ err: err.message });
+    });
 
     return;
 });
@@ -60,6 +60,15 @@ router.get('/:id', async (req, res, next) => {
 });
 
 
+router.get('/index/:id', async (req, res, next) => {
+    const catalog = await Catalog.findOne({ index: req.params.id });
+
+    if (!catalog) return res.status(404).send('The Catalog with the given ID was not found.');
+
+    res.send(catalog);
+
+});
+
 // Upadte Catalog
 router.put('/:id', async (req, res, next) => {
     const catalog = await Catalog.findById(req.params.id);
@@ -73,6 +82,22 @@ router.put('/:id', async (req, res, next) => {
     console.log(data);
 
     const updatedUser = await Catalog.findByIdAndUpdate(req.params.id, data);
+    res.send(updatedUser);
+    return;
+});
+
+router.put('/index/:id', async (req, res, next) => {
+    const catalog = await Catalog.findOne({ index: req.params.id });
+    if (!catalog) return res.status(404).send('The catalog with the given INDEX was not found.');
+
+    let data = req.body;
+
+    // const { error } = validateUpdate(data);
+    // if (error) return res.status(400).send(error.details[0].message);
+
+    console.log(data);
+
+    const updatedUser = await Catalog.findOneAndUpdate({ index: req.params.id }, data);
     res.send(updatedUser);
     return;
 });
