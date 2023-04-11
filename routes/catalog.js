@@ -21,7 +21,7 @@ router.get('/list', async (req, res, next) => {
             return {
                 id: item.id,
                 name: item.name,
-                short: item.description.substring(0, 60),
+                short: item.description.substring(0, 100),
                 image: item.images[0],
             }
         });
