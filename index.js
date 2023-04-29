@@ -2,12 +2,12 @@ import * as dotenv from 'dotenv'
 dotenv.config();
 
 import express, { json } from 'express';
+import compression from 'compression';
 import initDb from './startup/db.js';
 import routes from './startup/routes.js';
 
 const app = express()
 const PORT = process.env.PORT || 3000
-
 app.use(express.static('public'));
 
 app.use(function (req, res, next) {
@@ -17,6 +17,9 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.use(compression({
+    level: 6 
+}));
 app.use(json());
 
 routes(app);
