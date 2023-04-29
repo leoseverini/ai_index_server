@@ -124,3 +124,24 @@ content-type: application/json
 {
     "description": "ccc"
 }
+
+###
+
+GET http://localhost:3000/api/categories HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/categories
+content-type: application/json
+
+{
+    "name": "design",
+    "tags": [
+        "logo generator", "image generator", "video editor",
+        "video generator", "design", 
+        "customized videos", 
+        "video editing", 
+        "image editing", 
+        "art"
+    ]
+}
