@@ -23,6 +23,7 @@ router.get('/list', async (req, res, next) => {
                 name: item.name,
                 short: item.description.substring(0, 100),
                 image: item.images[0],
+                tags: item.tags,
             }
         });
 
