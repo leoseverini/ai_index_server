@@ -1,0 +1,1 @@
+import{_ as c,o as n,c as o,F as t,a as e}from"./index-4a6a65fd.js";const s={},a=e("h1",null,"AI Index Backoffice",-1),r=e("h2",null,"(C) Funkey Labs",-1);function _(l,f){return n(),o(t,null,[a,r],64)}const d=c(s,[["render",_]]);export{d as default};
